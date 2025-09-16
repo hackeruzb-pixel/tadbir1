@@ -46,8 +46,8 @@ html,body{
   padding:24px;
 }
 .stage{
-  width: var(--slide-w);
-  height: var(--slide-h);
+  width:min(98vw,var(--slide-w));
+  height:min(92vh,var(--slide-h));
   border-radius:22px;
   overflow:hidden;
   position:relative;
