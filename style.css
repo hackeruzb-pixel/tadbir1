@@ -244,19 +244,6 @@ html,body{
   box-shadow:0 0 15px var(--accent), 0 0 30px var(--gold);
 }
 
-/* responsive */
-@media (max-width:1000px){
-  .slide{grid-template-columns:1fr 320px;gap:26px}
-  .portrait{width:180px;height:180px}
-  .card{width:320px;height:auto}
-  .title{font-size:38px}
-}
-@media (max-width:720px){
-  .slide{grid-template-columns:1fr;gap:18px;padding:20px}
-  .card{width:100%;height:auto}
-  .portrait{width:160px;height:160px}
-  .controls{bottom:12px;left:12px;right:12px}
-}
 
 /* focus */
 .btn:focus, .dot:focus, .file-label:focus{
